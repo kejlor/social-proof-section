@@ -1,0 +1,29 @@
+:root {
+  --clr-primary-200: hsl(333, 80%, 67%);
+  --clr-primary-800: hsl(300, 43%, 22%);
+
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-neutral-300: hsl(300, 24%, 96%);
+  --clr-neutral-800: hsl(303, 10%, 53%);
+
+  --ff-primary: "Spartan", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--ff-primary);
+  font-size: 15px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
