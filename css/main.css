@@ -18,6 +18,7 @@
 body {
   font-family: var(--ff-primary);
   font-size: 15px;
+  text-align: center;
 }
 
 .attribution {
@@ -26,4 +27,81 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1,
+h3 {
+  color: var(--clr-primary-800);
+}
+
+p {
+  color: var(--clr-neutral-800);
+}
+
+h4 {
+  color: var(--clr-neutral-100);
+}
+
+.pink {
+  background: none;
+  color: var(--clr-primary-200);
+}
+
+.card {
+  background-color: var(--clr-primary-800);
+  border-radius: 0.75em 0.75em 0.75em 0.75em;
+  margin: 1em 1em 1em 1em;
+}
+
+.card p {
+  color: var(--clr-neutral-300);
+  text-align: left;
+  margin-top: 1em;
+}
+
+.card img {
+  display: block;
+  align-self: left;
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+}
+
+.name h4,
+.name p {
+  margin: 0;
+}
+
+.buyer {
+  display: flex;
+  flex-direction: row;
+}
+
+.buyer .name {
+  margin-left: 1em;
+}
+
+.container {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+@media (max-width: 375px) {
+}
+
+@media (min-width: 375px) {
 }
