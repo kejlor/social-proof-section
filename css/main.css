@@ -100,6 +100,19 @@ h4 {
   padding-bottom: 2em;
 }
 
+.stars > * + * {
+  margin-left: 0.5em;
+}
+
+.rate {
+  padding-top: 1.5em;
+  padding-bottom: 1em;
+}
+
+.rate h3 {
+  margin-top: 1em;
+}
+
 @media (max-width: 375px) {
 }
 
