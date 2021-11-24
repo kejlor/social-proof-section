@@ -113,6 +113,19 @@ h4 {
   margin-top: 1em;
 }
 
+.description {
+  margin: 6em 2em 2em 2em;
+}
+
+.description h1 {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.description p {
+  margin-top: 1em;
+}
+
 @media (max-width: 375px) {
 }
 
